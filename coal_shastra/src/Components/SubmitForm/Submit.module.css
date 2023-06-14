@@ -1,0 +1,72 @@
+.main_div {
+	width: 60%;
+	border: 2px solid red;
+	padding: 20px;
+	margin: auto;
+}
+
+.top_div > h3 {
+	display: flex;
+	margin: 0px 20px;
+        color: grey;
+}
+.top_div :nth-child(2) {
+	color: blue;
+}
+
+.top_div {
+	width: 60%;
+}
+.mid_div {
+	display: flex;
+	margin: 0px auto;
+}
+.mid_div > div {
+	margin: 5px 30px;
+}
+input {
+	padding: 10px;
+	font-size: 16px;
+        color: grey;
+}
+select {
+	font-size: 16px;
+}
+.star {
+	color: red;
+	font-size: 10px;
+}
+.btm_div {
+	margin-left: 30px;
+}
+
+.lw_div {
+	display: flex;
+	margin-left: -80px;
+}
+lw_div > div h3 {
+	color: gray;
+}
+.lw_div div > div {
+	display: flex;
+	align-items: center;
+}
+.lw_div > div {
+	/* background-color: aqua; */
+	align-items: center;
+	margin: 5px auto;
+}
+
+.last_div {
+	color: white;
+	background: rgb(2, 2, 188);
+	border-radius: 5px;
+	width: 40%;
+	padding: 2px;
+	text-align: center;
+	align-items: center;
+	/* margin: auto; */
+}
+h3 , h4{
+        color: gray;
+}

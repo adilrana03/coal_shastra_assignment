@@ -1,0 +1,32 @@
+/* body{
+        background-color: aquamarine;
+} */
+
+.main-div {
+	width: 600px;
+	box-shadow: 0 0 2px rgb(208, 205, 205);
+	align-items: center;
+}
+.upper-div {
+	display: flex;
+	justify-content: space-between;
+	margin-left: 20px;
+	align-items: center;
+}
+.upper-div > div > h3{
+        color: rgba(24, 24, 111, 0.637);
+}
+.mid-div {
+	display: flex;
+	margin-left: 20px;
+}
+.btm-div {
+	margin-left: 0px;
+	margin-top: -20px;
+}
+.btm-div > div {
+	margin: 20px;;
+}
+.btm-div > div > h4 {
+	color: gray;
+}

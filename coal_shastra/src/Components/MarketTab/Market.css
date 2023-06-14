@@ -1,0 +1,10 @@
+.market-div {
+	display: flex;
+	border: 2px solid red;
+	box-shadow: 0 0 10px rgb(245, 242, 242);
+
+}
+
+.market-div > div {
+	margin: auto;
+}
