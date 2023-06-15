@@ -5,6 +5,7 @@ import Filter from './Components/Filter/Filter';
 import Search from './Components/Search/Search';
 import SubmitForm from './Components/SubmitForm/SubmitForm';
 import PricingDetails from './Components/PricingDetails/PricingDetails';
+import { useState } from 'react';
 
 
 
@@ -12,6 +13,10 @@ import PricingDetails from './Components/PricingDetails/PricingDetails';
 
 function App() {
 
+
+  const [state, setState]= useState(false);
+
+  
   return (
     <>
       <div className='App' style={{ textAlign: "center", alignItems: "center" }}>
@@ -20,7 +25,7 @@ function App() {
           <Filter  style={{marginLeft:"-500px"}}/>
           <Search />
         </div>
-        <div style={{ marginLeft: "10px", display: "flex" }}>
+        <div style={{ marginLeft: "10px", display: "flex", width:"100%" }}>
           <div style={{ }}>
             <Contact />
             <Contact />
@@ -31,7 +36,10 @@ function App() {
           </div>
 
         </div >
-        <SubmitForm />
+
+         <SubmitForm />
+        
+        
       </div>
     </>
   );

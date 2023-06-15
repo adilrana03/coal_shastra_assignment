@@ -21,9 +21,11 @@
 .mid_div {
 	display: flex;
 	margin: 0px auto;
+	width: 100%;
 }
 .mid_div > div {
 	margin: 5px 30px;
+	width: 100%;
 }
 input {
 	padding: 10px;
@@ -62,14 +64,12 @@ h3 , h4{
 	text-align: left;
 }
 
-.last_div {
-	color: white;
-	background: rgb(2, 2, 188);
+.btn{
+	color:white;
+	background:blue;
+	padding:20px;
+	text-align:center;
+	margin-left: -600px;
 	border-radius: 5px;
-	width: 40%;
-	padding: 2px;
-	text-align: center;
-	align-items: center;
-	margin-left: 30px;
-	/* margin: auto; */
+	cursor: pointer;
 }
