@@ -1,5 +1,4 @@
 // import Notfound from './Components/State_API/NotFound';
-import { Route, Routes, Link, Navigate } from 'react-router-dom';
 import Contact from './Components/Contract/Contract';
 import MarketTab from './Components/MarketTab/MarketTab';
 import Filter from './Components/Filter/Filter';
@@ -13,32 +12,26 @@ import PricingDetails from './Components/PricingDetails/PricingDetails';
 
 function App() {
 
-
   return (
     <>
-      <div className='App' style={{textAlign:"center", alignItems:"center"}}>
+      <div className='App' style={{ textAlign: "center", alignItems: "center" }}>
         <MarketTab />
-        <div style={{ display: "flex", justifyContent:"space-between" , marginBottom:"100px"}}>
-          <Filter />
+        <div style={{ display: "flex", marginBottom: "70px", marginLeft:"-500px", marginTop:"10px" }}>
+          <Filter  style={{marginLeft:"-500px"}}/>
           <Search />
         </div>
-        <div style={{marginLeft:"30PX", display:"flex"}}>
-          <div style={{width:"30%"}}>
-
-        <Contact />
-        <Contact />
-        <Contact />
+        <div style={{ marginLeft: "10px", display: "flex" }}>
+          <div style={{ }}>
+            <Contact />
+            <Contact />
+            <Contact />
+          </div>
+          <div style={{ marginLeft:"20px"}}>
+            <PricingDetails />
           </div>
 
-        </div>
-
-          <div>
-        <PricingDetails />
-
-          </div>
-
+        </div >
         <SubmitForm />
-
       </div>
     </>
   );

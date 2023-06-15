@@ -11,8 +11,8 @@ import style from './Pricing.module.css'
 const PricingDetails = () => {
         return (
                 <>
-                        <div style={{ width: "75%", marginLeft: "40px", border: "2px solid red", marginRight:"-100px" }}>
-                                <div style={{ display: "flex", padding: "20px" }}>
+                        <div style={{ width: "860px", marginLeft: "0px", marginRight:"0px" , boxShadow:" 0 0 2px gray"}}>
+                                <div style={{ display: "flex", padding: "20px", marginLeft:"12px" }}>
                                         <div style={{ alignItems: "center", color: "grey" }}>
                                                 <div>
                                                         <h3>MV SAMJOHN SOLIDARITY</h3>
@@ -27,34 +27,32 @@ const PricingDetails = () => {
                                         </div>
 
 
-                                        <div style={{ display: "flex", alignItems: "center", marginTop: "-30px", marginLeft: "150px" }} >
+                                        <div style={{ display: "flex", alignItems: "center", marginTop: "-30px", marginLeft: "170px" }} >
                                                 <div >
                                                         <p>Last Match</p>
                                                         <h3 style={{ color: "blue", fontWeight: "bolder" }}> 14840.00/MT</h3>
                                                 </div>
                                         </div>
                                 </div>
-                                <div style={{ display: "flex", textDecoration: "underline", padding: "20px", marginTop: "-35px" }}>
+                                <div style={{ display: "flex", textDecoration: "underline", padding: "20px", marginTop: "-35px", marginLeft:"10px" }}>
                                         <MdDownload />
                                         Download Report
                                 </div>
-                                <div style={{ padding: "20px", margin: "-45px 30px -80px 10px" }}>
+                                <div style={{ margin: "-25px 30px -80px -660px",justifyContent:"flex-start" }}>
                                         <h2>All Listing</h2>
                                 </div>
 
 
 
 
-                                <div style={{display:"flex", width:"100%", padding:"30px"}}>
+                                <div style={{display:"flex", width:"100%", padding:"10px"}}>
                                         <div style={{width:"60%"}}>
-                                                <div style={{ width: "50%", padding: "20px" }}>
+                                                <div style={{ padding: "20px" }}>
                                                         <div style={{ display: "flex", marginLeft: "-30px" }}>
                                                                 <p>Required Quantity</p>
                                                                 <p style={{ marginLeft: "100px" }}>Buyers</p>
                                                         </div>
                                                         <hr />
-
-
                                                         <div style={{ marginBottom: "-30px" }}>
                                                                 <h3>#31886 | <span>(Views)</span></h3>
                                                         </div>
@@ -100,13 +98,13 @@ const PricingDetails = () => {
                                                                 </div>
 
                                                         </div>
-                                                        <p style={{ marginLeft: "0px" }}>
+                                                        <p style={{ marginLeft: "-140px" }}>
                                                                 50K+ TONS | 100+ Deals | 2+ Years
                                                         </p>
                                                         <hr />
                                                 </div>
 
-                                                <div style={{ widows: "50%", padding: "20px" }}>
+                                                <div style={{ padding: "20px" }}>
                                                         <div style={{ marginBottom: "-30px", marginTop: "-50px" }}>
                                                                 <h3>#31886 | <span>(Views)</span></h3>
                                                         </div>
@@ -152,17 +150,16 @@ const PricingDetails = () => {
                                                                 </div>
 
                                                         </div>
-                                                        <p style={{ marginLeft: "0px" }}>
+                                                        <p style={{ marginLeft: "-140px" }}>
                                                                 50K+ TONS | 100+ Deals | 2+ Years
                                                         </p>
                                                 </div>
                                         </div>
+{/* -------------------------------------------------2nd Div Side SStart from Here---------------------------------------------------------------- */}
 
+                                        <div style={{width:"60%", marginLeft:"0px"}}>
 
-
-                                        <div style={{width:"60%", marginLeft:"-230px"}}>
-
-                                                <div style={{ width: "50%", padding: "20px" }}>
+                                                <div style={{  padding: "20px" }}>
                                                         <div style={{ display: "flex", marginLeft: "-30px" }}>
                                                                 <p>Required Quantity</p>
                                                                 <p style={{ marginLeft: "100px" }}>Buyers</p>
@@ -215,13 +212,13 @@ const PricingDetails = () => {
                                                                 </div>
 
                                                         </div>
-                                                        <p style={{ marginLeft: "0px" }}>
+                                                        <p style={{ marginLeft: "-135px" }}>
                                                                 50K+ TONS | 100+ Deals | 2+ Years
                                                         </p>
                                                         <hr />
                                                 </div>
 
-                                                <div style={{ widows: "50%", padding: "20px" }}>
+                                                <div style={{ width: "90%", padding: "20px" }}>
                                                         <div style={{ marginBottom: "-30px", marginTop: "-50px" }}>
                                                                 <h3>#31886 | <span>(Views)</span></h3>
                                                         </div>
@@ -267,7 +264,7 @@ const PricingDetails = () => {
                                                                 </div>
 
                                                         </div>
-                                                        <p style={{ marginLeft: "0px" }}>
+                                                        <p style={{ marginLeft: "-130px" }}>
                                                                 50K+ TONS | 100+ Deals | 2+ Years
                                                         </p>
                                                 </div>

@@ -1,6 +1,6 @@
 .market-div {
 	display: flex;
-	border: 2px solid red;
+	border: 1px solid rgb(218, 215, 215);
 	box-shadow: 0 0 10px rgb(245, 242, 242);
 
 }

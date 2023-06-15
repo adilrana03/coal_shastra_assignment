@@ -16,21 +16,21 @@ const Contact = () => {
                                                 <h3>MV SAMJOHN SOLIDARITY</h3>
                                         </div>
                                         <div style={{ margin: "10px" }}>
-                                                <HiShare style={{ marginRight: "30px" }} />
-                                                <IoMdDownload style={{ marginRight: "30px", color: "blue" }} />
-                                                <AiFillStar style={{ marginRight: "30px", color: "gold" }} />
+                                                <HiShare style={{ marginRight: "20px" }} />
+                                                <IoMdDownload style={{ marginRight: "20px", color: "blue" }} />
+                                                <AiFillStar style={{ marginRight: "20px", color: "gold" }} />
                                         </div>
                                 </div>
 
 
 
                                 <div className='mid-div'>
-                                        <div style={{ display: "flex", alignItems: "center", marginRight: "15px" }}>
-                                                <GiUsaFlag style={{ color: "red" }} />
+                                        <div style={{ display: "flex", alignItems: "center",  }}>
+                                                <GiUsaFlag style={{ color: "red",  marginBottom:"-35px",marginRight: "-20px" }} />
                                                 <p>United States |</p>
                                         </div>
                                         <div style={{ display: "flex", marginRight: "30px", alignItems: "center" }}>
-                                                <MdLocationOn style={{ marginRight: "10px" }} />
+                                                <MdLocationOn style={{ marginRight: "-20px",  marginBottom:"-35px" }} />
                                                 <p>Tuna Port |</p>
                                         </div>
                                         <div>

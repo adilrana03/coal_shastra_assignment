@@ -1,8 +1,9 @@
 .main_div {
 	width: 60%;
-	border: 2px solid red;
+	border: 1px solid rgb(203, 202, 202);
 	padding: 20px;
 	margin: auto;
+	margin-right: 30px;
 }
 
 .top_div > h3 {
@@ -56,6 +57,10 @@ lw_div > div h3 {
 	align-items: center;
 	margin: 5px auto;
 }
+h3 , h4{
+	color: gray;
+	text-align: left;
+}
 
 .last_div {
 	color: white;
@@ -65,8 +70,6 @@ lw_div > div h3 {
 	padding: 2px;
 	text-align: center;
 	align-items: center;
+	margin-left: 30px;
 	/* margin: auto; */
-}
-h3 , h4{
-        color: gray;
 }

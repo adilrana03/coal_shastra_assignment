@@ -3,13 +3,15 @@
 } */
 
 .main-div {
-	width: 600px;
+	width: 530px;
 	box-shadow: 0 0 2px rgb(208, 205, 205);
 	align-items: center;
 }
 .upper-div {
 	display: flex;
+	margin-right: 40px;
 	justify-content: space-between;
+
 	margin-left: 20px;
 	align-items: center;
 }

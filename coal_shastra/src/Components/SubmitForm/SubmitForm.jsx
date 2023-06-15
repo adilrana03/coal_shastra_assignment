@@ -65,7 +65,7 @@ const SubmitForm = () => {
 
                         <div className={style.btm_div}>
                                 <h4>Address<AiFillStar className={style.star} /></h4>
-                                <input style={{ padding: "10px", marginRight: "50px", background: "verylightgrey", width: "400px" }} type="text" id="" placeholder='Tuna Port, kutch, Gujrat, 370365       🖊  ' />
+                                <input style={{ padding: "10px", marginRight: "50px", background: "verylightgrey", width: "400px", marginLeft:"-350px" }} type="text" id="" placeholder='Tuna Port, kutch, Gujrat, 370365       🖊  ' />
                         </div>
 
 
@@ -91,14 +91,14 @@ const SubmitForm = () => {
                                 </div>
                         </div>
 
-                        <div style={{display:"flex",alignItems:"center", color:"blue"}}> 
+                        <div style={{display:"flex",alignItems:"center", color:"blue", marginLeft:"30px"}}> 
                                 <AiOutlinePlus/>
                                 <h3>Add Special Comments</h3>
                         </div>
 
 
                         <div className={style.last_div}>
-                                <h3>SUBMIT YOUR PRODUCT</h3>
+                                <h3 style={{color:"white", textAlign:"center"}}>SUBMIT YOUR PRODUCT</h3>
                         </div>
 
 
