@@ -1,5 +1,6 @@
 import React from 'react';
 import './Market.css';
+import { Link } from 'react-router-dom';
 
 import { AiFillStar } from 'react-icons/ai'
 
@@ -11,47 +12,47 @@ const MarketTab = () => {
                         <div className='market-div'>
                                 <div style={{display:"flex", alignItems:"center"}}>
                                         <AiFillStar style={{marginRight:"15px"}}/>
-                                        <h3>FAV</h3>
+                                        <Link to="/Fav">FAV</Link>
                                 </div>
                                 <div>
 
-                                        <h3 style={{color:"blue"}}>USAGUJ</h3>
+                                        <Link to='/' style={{color:"blue"}}>USAGUJ</Link>
                                 </div>
                                 <div>
 
-                                        <h3>WCL</h3>
+                                        <Link to='/WCL'>WCL</Link>
                                 </div>
                                 <div>
 
-                                        <h3>MCL</h3>
+                                        <Link to='/MCL'>MCL</Link>
                                 </div>
                                 <div>
 
-                                        <h3>VIZAGPT</h3>
+                                        <Link to='/VIZAG'>VIZAGPT</Link>
                                 </div>
                                 <div>
 
-                                        <h3>INDOGUJ</h3>
+                                        <Link to="/INDO">INDOGUJ</Link>
                                 </div>
                                 <div>
 
-                                        <h3>NMANGPT</h3>
+                                        <Link to='NMANGPT' >NMANGPT</Link >
                                 </div>
                                 <div>
 
-                                        <h3>USAUN</h3>
+                                        <Link to='USAN'>USAUN</Link >
                                 </div>
                                 <div>
 
-                                        <h3>USAM</h3>
+                                        <Link to='USAM'>USAM</Link >
                                 </div>
                                 <div>
 
-                                        <h3>ECL</h3>
+                                        <Link to='ECL'>ECL</Link >
                                 </div>
                                 <div>
 
-                                        <h3>ENNKAPT</h3>
+                                        <Link to='ENNKAPT'>ENNKAPT</Link >
                                 </div>
 
                         </div>
